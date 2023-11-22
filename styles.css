@@ -7,15 +7,17 @@ ol,
 ul {
   list-style: none;
 }
-/* .border {
-  width: 768px;
-  height: 1150px;
-  border: 1px solid;
-  display: flex;
-  justify-content: center;
+.border {
+  position: absolute;
+  width: 295px;
+  height: 295px;
+  border: 1px solid rgb(180, 180, 180);
+  /* background:; */
+  left: -15px;
+  top: 9px;
 }
 
-.sun {
+/* .sun {
   width: 30px;
   height: 30px;
   background: red;
@@ -29,7 +31,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border: 2px solid #fc0;
+  /* border: 2px solid #fc0; */
   width: 900px;
   height: 750px;
   margin: 20px;
@@ -49,60 +51,60 @@ body {
   position: absolute;
   width: 0;
   height: 0;
-  border-left: 240px solid transparent;
-  border-right: 240px solid transparent;
-  border-bottom: 172px solid rgb(43, 8, 139);
-  left: 10px;
-  top: 21px;
+  border-left: 72px solid transparent;
+  border-right: 72px solid transparent;
+  border-bottom: 70px solid rgb(16, 27, 255);
+  left: 50px;
+  top: 125px;
   z-index: 1;
 }
 
 .sun {
   position: absolute;
-  width: 70px;
-  height: 70px;
+  width: 30px;
+  height: 30px;
   border: 1px solid white;
   border-radius: 50%;
-  background: rgb(39, 4, 165);
-  left: 10px;
-  top: 30px;
+  background: rgb(15, 28, 255);
+  left: 56px;
+  top: 105px;
 }
 
 .wall {
   position: absolute;
-  width: 370px;
-  height: 200px;
+  width: 111px;
+  height: 111px;
   border: 2px solid white;
-  background: sienna;
+  background: rgb(255, 163, 32);
   left: 65px;
   top: 193px;
 }
 
 .door {
   position: absolute;
-  width: 86px;
-  height: 117px;
-  background: rgb(32, 19, 2);
-  left: 80px;
-  top: 279px;
+  width: 29px;
+  height: 74px;
+  background: rgb(174, 54, 41);
+  left: 75px;
+  top: 232px;
 }
 
 .window {
   position: absolute;
-  width: 70px;
-  height: 70px;
-  background: burlywood;
-  left: 320px;
-  top: 250px;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  left: 125px;
+  top: 231px;
 }
 
 .pipe {
   position: relative;
-  width: 50px;
-  height: 50px;
-  background: #e76873;
+  width: 20px;
+  height: 25px;
+  background: rgb(174, 54, 41);
   /* margin: auto; */
   transform: perspective(20px) rotateX(0deg) rotateY(-1deg);
-  left: 126px;
-  top: 60px;
+  left: 74px;
+  top: 145px;
 }
